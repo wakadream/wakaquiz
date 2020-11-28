@@ -14,6 +14,14 @@ button {
     font-size: large;
 }
 button:hover {background-color: yellowgreen;}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #413e3d;
+}
 h1 {
     text-transform: capitalize;
 }

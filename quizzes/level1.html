@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ako Wa Project by Devarsh and Jasper</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;"> Waka Kiwi Quiz </h1>
+    <p id="question"></p>
+    <button id="1"></button><button id="2"></button><button id="3"></button><button id="4"></button>
+    <script>
+        // initialising the game
+        var questions = ["Which of these New Zealand birds are extinct?", "Where is Scott Base?"];
+        var options = [["Kiwi", "Kakapo", "Moa", "Morepork"], ["Stewart Island", "Antarctica", "South Island", "New York (in the USA)"]];
+        /* THESE START FROM ONE, NOT ZERO, OK? */ var answers = [3, 2];
+        function randomizeFrom(min, max) { return Math.floor(Math.random() * (Math.floor(max) - Math.ceil(min) + 1)) + Math.ceil(min); }; // This code also works with Decimals I think
+        var i;
+        var questionNumber;
+        function newQuestion() {
+            questionNumber = randomizeFrom(0, questions.length - 1);
+            document.getElementById('question').innerHTML = questions[questionNumber];
+            
+            for (i = 0, i < 4, i++;;) {
+                document.getElementById(String(i)).innerHTML = options[questionNumber][i];
+            }
+        }
+        newQuestion();
+    </script>
+</body>
+</html>

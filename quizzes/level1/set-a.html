@@ -57,7 +57,7 @@
         }
         newQuestion()
         function q1c() {
-            if (0 == answers[questionNumber] - 1 && allowClick) {
+            if (0 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 correctAnswers++
             } else {

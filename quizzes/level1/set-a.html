@@ -21,6 +21,26 @@
         var questions = ["Where is Scott Base?"]
         var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"]]
         /* In human readable format (starting from 1) */ var answers = []
+        var questionNumber
+        var correctAnswers = 0;
+        var questionsDone = 0;
+        function random(min, max) {
+            return Math.floor((Math.random() * max) + min) + 1
+        }
+        function redoScore {
+            document.getElementById('thescore').innerHTML = "Score: " + String(correctAnswers) + "/" + String(questionsDone)
+        }
+        function newQuestion() {
+            questionNumber = random(0, questions.length - 1)
+            document.getElementById('thequestion').innerHTML = questions[questionNumber]
+            redoScore()
+            document.getElementById('1').innerHTML = answers[questionNumber][0]
+            document.getElementById('2').innerHTML = answers[questionNumber][1]
+            document.getElementById('3').innerHTML = answers[questionNumber][2]
+            document.getElementById('4').innerHTML = answers[questionNumber][3]
+        }
+        newQuestion()
+
     </script>
 </body>
 </html>

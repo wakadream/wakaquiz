@@ -45,6 +45,7 @@
                 questionNumber = random(0, questions.length - 1)
                 document.getElementById('thequestion').innerHTML = questions[questionNumber]
                 redoScore()
+                document.getElementById('congrats-mate').innerHTML = ""
                 document.getElementById('1').innerHTML = String(buttonText[questionNumber][0])
                 document.getElementById('2').innerHTML = String(buttonText[questionNumber][1])
                 document.getElementById('3').innerHTML = String(buttonText[questionNumber][2])

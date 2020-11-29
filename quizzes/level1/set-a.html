@@ -31,7 +31,7 @@
         var questionNumber
         var correctAnswers = 0;
         var questionsDone = -1;
-
+        var allowClick = true
         function random(min, max) {
             return Math.floor((Math.random() * max) + min)
         }
@@ -40,6 +40,7 @@
         }
         function newQuestion() {
             if (questionsDone < 10) {
+                allowClick = true
                 questionsDone++
                 questionNumber = random(0, questions.length - 1)
                 document.getElementById('thequestion').innerHTML = questions[questionNumber]
@@ -56,14 +57,18 @@
         }
         newQuestion()
         function q1c() {
-            
-            if (0 == answers[questionNumber] - 1) {
+            if (0 == answers[questionNumber] - 1 && allowClick) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 correctAnswers++
             } else {
-                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
+                if (!0 == answers[questionNumber]) {
+                    document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
+                }
+                
             }
             document.getElementById('next').style.visibility = "visible"
+            allowClick = false
+            
         }
         function q2c() {
             

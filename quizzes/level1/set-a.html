@@ -72,33 +72,36 @@
         }
         function q2c() {
             
-            if (1 == answers[questionNumber] - 1) {
+            if (1 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
+            allowClick = false
         }
         function q3c() {
             
-            if (2 == answers[questionNumber] - 1) {
+            if (2 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
+            allowClick = false
         }
         function q4c() {
             
-            if (3 == answers[questionNumber] - 1) {
+            if (3 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
+            allowClick = false
         }
     </script>
 </body>

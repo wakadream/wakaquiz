@@ -18,14 +18,14 @@
     <button id="3"></button><br />
     <button id="4"></button><br />
     <script>
-        var questions = ["Where is Scott Base?"]
-        var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"]]
-        /* In human readable format (starting from 1) */ var answers = []
+        var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?"]
+        var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"], ["By plane", "By boat", "By jetski", "By horse"]]
+        /* In human readable format (starting from 1) */ var answers = [2, 2]
         var questionNumber
         var correctAnswers = 0;
         var questionsDone = 0;
         function random(min, max) {
-            return Math.floor((Math.random() * max) + min) + 1
+            return Math.floor((Math.random() * max) + min)
         }
         function redoScore() {
             document.getElementById('thescore').innerHTML = "Score: " + String(correctAnswers) + "/" + String(questionsDone)
@@ -34,10 +34,10 @@
             questionNumber = random(0, questions.length - 1)
             document.getElementById('thequestion').innerHTML = questions[questionNumber]
             redoScore()
-            document.getElementById('1').innerHTML = answers[questionNumber][0]
-            document.getElementById('2').innerHTML = answers[questionNumber][1]
-            document.getElementById('3').innerHTML = answers[questionNumber][2]
-            document.getElementById('4').innerHTML = answers[questionNumber][3]
+            document.getElementById('1').innerHTML = String(buttonText[questionNumber][0])
+            document.getElementById('2').innerHTML = String(buttonText[questionNumber][1])
+            document.getElementById('3').innerHTML = String(buttonText[questionNumber][2])
+            document.getElementById('4').innerHTML = String(buttonText[questionNumber][3])
         }
         newQuestion()
 

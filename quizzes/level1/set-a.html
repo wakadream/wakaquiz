@@ -34,10 +34,10 @@
             questionNumber = random(0, questions.length - 1)
             document.getElementById('thequestion').innerHTML = questions[questionNumber]
             redoScore()
-            document.getElementById('1').innerHTML = answers[questionNumber][0]
-            document.getElementById('2').innerHTML = answers[questionNumber][1]
-            document.getElementById('3').innerHTML = answers[questionNumber][2]
-            document.getElementById('4').innerHTML = answers[questionNumber][3]
+            document.getElementById('1').innerHTML = String(answers[questionNumber][0])
+            document.getElementById('2').innerHTML = String(answers[questionNumber][1])
+            document.getElementById('3').innerHTML = String(answers[questionNumber][2])
+            document.getElementById('4').innerHTML = String(answers[questionNumber][3])
         }
         newQuestion()
 

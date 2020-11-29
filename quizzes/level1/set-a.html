@@ -17,7 +17,7 @@
     <button id="2"></button><br />
     <button id="3"></button><br />
     <button id="4"></button><br />
-    <p id="congrats-mate"></p> <button id="next" onclick="newQuestion()"></button>
+    <p id="congrats-mate"></p> <button id="next" onclick="newQuestion()">Next</button>
     <script>
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?"]
         var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"], ["By plane", "By boat", "By jetski", "By horse"]]
@@ -43,7 +43,7 @@
         }
         newQuestion()
         function q1c() {
-            if (1 == answers[questionNumber] - 1) {
+            if (0 == answers[questionNumber]) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
@@ -51,7 +51,7 @@
             document.getElementById('next').style.visibility = "visible"
         }
         function q2c() {
-            if (2 == answers[questionNumber] - 1) {
+            if (1 == answers[questionNumber]) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
@@ -59,7 +59,7 @@
             document.getElementById('next').style.visibility = "visible"
         }
         function q3c() {
-            if (3 == answers[questionNumber] - 1) {
+            if (2 == answers[questionNumber]) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
@@ -67,7 +67,7 @@
             document.getElementById('next').style.visibility = "visible"
         }
         function q4c() {
-            if (4 == answers[questionNumber] - 1) {
+            if (3 == answers[questionNumber]) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]

@@ -11,9 +11,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
+    <style>
+        button {
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="container">
     <br />
     <h1 style="text-align: center;"> Waka Kiwi Quiz </h1>
     <h3 style="text-align: center;"> Level 1 </h3>
@@ -21,11 +27,13 @@
     <p id="thescore"></p>
     <h3 id="thequestion"></h3>
     <br />
-    <button id="1" onclick="q1c()" type="button" class="btn btn-primary"></button><br />
-    <button id="2" onclick="q2c()" type="button" class="btn btn-primary"></button><br />
-    <button id="3" onclick="q3c()" type="button" class="btn btn-primary"></button><br />
+    <button id="1" onclick="q1c()" type="button" class="btn btn-primary"></button><br /><br />
+    <button id="2" onclick="q2c()" type="button" class="btn btn-primary"></button><br /><br />
+    <button id="3" onclick="q3c()" type="button" class="btn btn-primary"></button><br /><br />
     <button id="4" onclick="q4c()" type="button" class="btn btn-primary"></button><br />
+    <br />
     <p id="congrats-mate"></p> <button id="next" onclick="newQuestion()" type="button" class="btn btn-primary">Next</button>
+    </div>
     <script>
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?", "Which insect provides some light in caves such as the Waitomo Caves?", "What colour is Kakariki?"]
         var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"], ["By plane", "By boat", "By jetski", "By horse"], ["Candle-worms", "Glow-worms", "Silk-worms", "Slow-worms"], ["Blue", "Yellow", "Black", "Green"]]

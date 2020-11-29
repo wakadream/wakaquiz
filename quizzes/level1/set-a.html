@@ -49,7 +49,7 @@
                 document.getElementById('4').innerHTML = String(buttonText[questionNumber][3])
                 document.getElementById('next').style.visibility = "hidden"
             } else {
-                alert('You have finished all your questions.')
+                alert('You have finished all your questions. Your score is ' + String(correctAnswers) + "/" + String(questionsDone) + '.')
             }
 
         }

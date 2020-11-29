@@ -43,7 +43,7 @@
         }
         newQuestion()
           function q1c() {
-            if (1 == answers[questionNumber]) {
+            if (1 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]

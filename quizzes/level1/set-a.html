@@ -32,7 +32,7 @@
             document.getElementById('thescore').innerHTML = "Score: " + String(correctAnswers) + "/" + String(questionsDone)
         }
         function newQuestion() {
-            document.getElementById('next').style.visibility = "hidden"
+            
             questionNumber = random(0, questions.length - 1)
             document.getElementById('thequestion').innerHTML = questions[questionNumber]
             redoScore()
@@ -40,13 +40,14 @@
             document.getElementById('2').innerHTML = String(buttonText[questionNumber][1])
             document.getElementById('3').innerHTML = String(buttonText[questionNumber][2])
             document.getElementById('4').innerHTML = String(buttonText[questionNumber][3])
+            document.getElementById('next').style.visibility = "hidden"
         }
         newQuestion()
         function q1c() {
             if (0 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
-                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
+                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }
@@ -54,7 +55,7 @@
             if (1 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
-                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
+                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }
@@ -62,7 +63,7 @@
             if (2 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
-                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
+                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }
@@ -70,7 +71,7 @@
             if (3 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
             } else {
-                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
+                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }

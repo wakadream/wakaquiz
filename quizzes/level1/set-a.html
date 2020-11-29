@@ -13,11 +13,13 @@
     <p id="thescore"></p>
     <h3 id="thequestion"></h3>
     <br />
-    <button id="1"></button><br />
+    <button id="1" onclick="q1c()"></button><br />
     <button id="2"></button><br />
     <button id="3"></button><br />
     <button id="4"></button><br />
+    <p id="congrats-mate"></p> <button id="next" onclick="newQuestion()"></button>
     <script>
+        
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?"]
         var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"], ["By plane", "By boat", "By jetski", "By horse"]]
         /* In human readable format (starting from 1) */ var answers = [2, 2]
@@ -31,6 +33,7 @@
             document.getElementById('thescore').innerHTML = "Score: " + String(correctAnswers) + "/" + String(questionsDone)
         }
         function newQuestion() {
+            document.getElementById('next').style.visibility = "hidden"
             questionNumber = random(0, questions.length - 1)
             document.getElementById('thequestion').innerHTML = questions[questionNumber]
             redoScore()
@@ -40,7 +43,14 @@
             document.getElementById('4').innerHTML = String(buttonText[questionNumber][3])
         }
         newQuestion()
-
+        function q1c() {
+            if (1 = answers[questionNumber]) {
+                document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
+            } else {
+                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong. The correct answer was: " + buttonText[questionNumber][answers[questionNumber]]
+            }
+            document.getElementById('next').style.visibility = "visible"
+        }
     </script>
 </body>
 </html>

@@ -52,7 +52,7 @@
             if (questionsDone < 10) {
                 allowClick = true
                 questionsDone++
-                questionNumber = random(0, questions.length - 1)
+                questionNumber = random(0, questions.length)
                 document.getElementById('thequestion').innerHTML = questions[questionNumber]
                 redoScore()
                 document.getElementById('congrats-mate').innerHTML = ""

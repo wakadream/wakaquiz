@@ -44,32 +44,40 @@
         }
         newQuestion()
         function q1c() {
+            questionsDone++
             if (0 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
+                correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }
         function q2c() {
+            questionsDone++
             if (1 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
+                correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }
         function q3c() {
+            questionsDone++
             if (2 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
+                correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }
             document.getElementById('next').style.visibility = "visible"
         }
         function q4c() {
+            questionsDone++
             if (3 == answers[questionNumber] - 1) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
+                correctAnswers++
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
             }

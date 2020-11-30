@@ -1,5 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to wakaquiz
 
-You can use the [editor on GitHub](https://github.com/wakadream/wakaquiz/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Wakaquiz is a web application that tests your New Zealand General Knowledge.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# How to use wakaquiz?
+
+To use wakaquiz, first go to the wakaquiz website

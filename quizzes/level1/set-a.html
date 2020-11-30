@@ -75,6 +75,7 @@
                     correctAnswers++
                 }
                 alert('You have finished all your questions. Your score is ' + String(correctAnswers) + "/" + String(questionsDone) + '.')
+                location.reload()
             }
 
         }
@@ -85,10 +86,10 @@
                 toadd = true
                 
             } else {
-                if (!0 == answers[questionNumber]) {
+                
                     document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
                     toadd = false
-                }
+                
 
             }
             document.getElementById('next').style.visibility = "visible"

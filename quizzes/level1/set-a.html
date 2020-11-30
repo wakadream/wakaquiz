@@ -55,7 +55,7 @@
             document.getElementById('thescore').innerHTML = "Score: " + String(correctAnswers) + "/" + String(questionsDone)
         }
         function newQuestion() {
-            if (questionsDone < 9) {
+            if (questionsDone < 10) {
                 allowClick = true
                 questionsDone++
                 if (toadd == true) {
@@ -96,9 +96,10 @@
 
             if (1 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
-                correctAnswers++
+                toadd = true
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
+                toadd = false
             }
             document.getElementById('next').style.visibility = "visible"
             allowClick = false
@@ -107,9 +108,10 @@
 
             if (2 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
-                correctAnswers++
+                toadd = true
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
+                toadd = false
             }
             document.getElementById('next').style.visibility = "visible"
             allowClick = false
@@ -118,9 +120,10 @@
 
             if (3 == answers[questionNumber] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
-                correctAnswers++
+                toadd = true
             } else {
                 document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
+                toadd = false
             }
             document.getElementById('next').style.visibility = "visible"
             allowClick = false

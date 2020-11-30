@@ -3,19 +3,23 @@
 
 <body>
 
-<div id="data"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script>
+  <div id="data"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script>
 
-$.getJSON( "/wakaquiz/quizzes/level1/questions-level1.json", function( data ) {
-  for(let i=0;i<data.length;i++) {
-      $('#data').append("<p>" + data[i].question + "</p>");
-  }
-
-});
-
-
-</script>
+    $.getJSON("/wakaquiz/quizzes/level1/questions-level1.json", function (data) {
+      for (let i = 0; i < data.length; i++) {
+        $('#data').append("<p>" + data[i].question + "</p>");
+      }
+      $('#data').append("<p>" + i + "</p>");
+    });
+    random(0, 9)
+    function random(min, max) {
+      return Math.floor((Math.random() * max) + min)
+    }
+  </script>
 
 
 </body>

@@ -71,6 +71,9 @@
                 document.getElementById('4').innerHTML = String(buttonText[questionNumber][3])
                 document.getElementById('next').style.visibility = "hidden"
             } else {
+                if (toadd == true) {
+                    correctAnswers++
+                }
                 alert('You have finished all your questions. Your score is ' + String(correctAnswers) + "/" + String(questionsDone) + '.')
             }
 

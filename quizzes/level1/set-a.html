@@ -11,7 +11,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
     <!--<style>
         button {
             padding: 10px;
@@ -38,7 +40,9 @@
     </div>
     <script>
         var JSONdata;
-        $.getJSON("questions-level1.json", function(data) {JSONdata = data;}); // sets jsondata variable
+        $.getJSON("questions-set-a.json", function(data) {
+             JSONdata = JSON.parse(JSON.stringify(data));
+        }); // sets jsondata variable
         // WE ARE GOING TO CHANGE THIS TO JSON READER!
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?", "Which insect provides some light in caves such as the Waitomo Caves?", "What colour is Kakariki?"]
         var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"], ["By plane", "By boat", "By jetski", "By horse"], ["Candle-worms", "Glow-worms", "Silk-worms", "Slow-worms"], ["Blue", "Yellow", "Black", "Green"]]
@@ -61,14 +65,16 @@
                 if (toadd == true) {
                     correctAnswers++
                 }
+                
                 questionNumber = random(0, questions.length)
-                document.getElementById('thequestion').innerHTML = questions[questionNumber]
+
+                document.getElementById('thequestion').innerHTML = JSONdata[questionNumber].question
                 redoScore()
                 document.getElementById('congrats-mate').innerHTML = ""
-                document.getElementById('1').innerHTML = String(buttonText[questionNumber][0])
-                document.getElementById('2').innerHTML = String(buttonText[questionNumber][1])
-                document.getElementById('3').innerHTML = String(buttonText[questionNumber][2])
-                document.getElementById('4').innerHTML = String(buttonText[questionNumber][3])
+                document.getElementById('1').innerHTML = String(JSONdata[questionNumber].correct-answer1)
+                document.getElementById('2').innerHTML = String(JSONdata[questionNumber].correct-answer2)
+                document.getElementById('3').innerHTML = String(JSONdata[questionNumber].correct-answer3)
+                document.getElementById('4').innerHTML = String(JSONdata[questionNumber].correct-answer4)
                 document.getElementById('next').style.visibility = "hidden"
             } else {
                 if (toadd == true) {
@@ -82,15 +88,15 @@
         }
         newQuestion()
         function q1c() {
-            if (0 == answers[questionNumber] - 1 && allowClick == true) {
+            if (0 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
-                
+
             } else {
-                
-                    document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
-                    toadd = false
-                
+
+                document.getElementById('congrats-mate').innerHTML = "Sorry, you got it wrong."
+                toadd = false
+
 
             }
             document.getElementById('next').style.visibility = "visible"
@@ -99,7 +105,7 @@
         }
         function q2c() {
 
-            if (1 == answers[questionNumber] - 1 && allowClick == true) {
+            if (1 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {
@@ -111,7 +117,7 @@
         }
         function q3c() {
 
-            if (2 == answers[questionNumber] - 1 && allowClick == true) {
+            if (2 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {
@@ -123,7 +129,7 @@
         }
         function q4c() {
 
-            if (3 == answers[questionNumber] - 1 && allowClick == true) {
+            if (3 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {

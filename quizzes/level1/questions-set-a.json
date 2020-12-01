@@ -242,5 +242,32 @@
       "answer2": "Australia",
       "answer3": "New Zealand",
       "answer4": "South Africa"
+    },
+    {
+      "id": 28,
+      "correct-answer": 3,
+      "question": "What is known as the 'Adventure Capitl' of NZ?",
+      "answer1": "Auckland",
+      "answer2": "Christchurch",
+      "answer3": "Queenstown",
+      "answer4": "Wellington"
+    },
+    {
+      "id": 29,
+      "correct-answer": 2,
+      "question": "Minke, Brydes, Blue, and Humpback are all species of what?",
+      "answer1": "Giraffes",
+      "answer2": "Whales",
+      "answer3": "Sharks",
+      "answer4": "Hippos"
+    },
+    {
+      "id": 30,
+      "correct-answer": 4,
+      "question": "Which famous NZer possibly flew the first airplane?",
+      "answer1": "Sir Edmund Hillary",
+      "answer2": "Steve Jobs",
+      "answer3": "John Key",
+      "answer4": "Richard Pearse"
     }
   ]

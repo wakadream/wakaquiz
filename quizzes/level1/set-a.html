@@ -60,7 +60,7 @@
             document.getElementById('thescore').innerHTML = "Score: " + String(correctAnswers) + "/" + String(questionsDone)
         }
         function newQuestion() {
-            if (questionsDone < 10) {
+            if (questionsDone != 10) {
                 allowClick = true
                 questionsDone++
                 if (toadd == true) {

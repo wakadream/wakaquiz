@@ -43,6 +43,7 @@
         $.getJSON("questions-set-a.json", function(data) {
              var JSONdata = JSON.parse(JSON.stringify(data));
         }); // sets jsondata variable
+        console.log(JSONdata)
         // WE ARE GOING TO CHANGE THIS TO JSON READER!
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?", "Which insect provides some light in caves such as the Waitomo Caves?", "What colour is Kakariki?"]
         var buttonText = [["Stewart Island", "Antarctica", "NZ South Island", "New York (in the USA)"], ["By plane", "By boat", "By jetski", "By horse"], ["Candle-worms", "Glow-worms", "Silk-worms", "Slow-worms"], ["Blue", "Yellow", "Black", "Green"]]

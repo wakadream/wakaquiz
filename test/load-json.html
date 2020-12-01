@@ -9,7 +9,7 @@
     crossorigin="anonymous"></script>
   <script>
 
-    $.getJSON("/wakaquiz/quizzes/level1/questions-level1.json", function (data) {
+    $.getJSON("/wakaquiz/quizzes/level1/questions-set-a.html", function (data) {
       for (let i = 0; i < data.length; i++) {
         $('#data').append("<p>" + data[i].question + "</p>");
       }

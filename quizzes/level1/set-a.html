@@ -71,10 +71,10 @@
                 document.getElementById('thequestion').innerHTML = JSONdata[questionNumber].question
                 redoScore()
                 document.getElementById('congrats-mate').innerHTML = ""
-                document.getElementById('1').innerHTML = String(JSONdata[questionNumber].correct-answer1)
-                document.getElementById('2').innerHTML = String(JSONdata[questionNumber].correct-answer2)
-                document.getElementById('3').innerHTML = String(JSONdata[questionNumber].correct-answer3)
-                document.getElementById('4').innerHTML = String(JSONdata[questionNumber].correct-answer4)
+                document.getElementById('1').innerHTML = String(JSONdata[questionNumber]["answer1"])
+                document.getElementById('2').innerHTML = String(JSONdata[questionNumber]["answer2"])
+                document.getElementById('3').innerHTML = String(JSONdata[questionNumber]["answer3"])
+                document.getElementById('4').innerHTML = String(JSONdata[questionNumber]["answer4"])
                 document.getElementById('next').style.visibility = "hidden"
             } else {
                 if (toadd == true) {
@@ -88,7 +88,7 @@
         }
         newQuestion()
         function q1c() {
-            if (0 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
+            if (0 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
 
@@ -105,7 +105,7 @@
         }
         function q2c() {
 
-            if (1 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
+            if (1 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {
@@ -117,7 +117,7 @@
         }
         function q3c() {
 
-            if (2 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
+            if (2 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {
@@ -129,7 +129,7 @@
         }
         function q4c() {
 
-            if (3 == JSONdata[questionNumber].correct-answer - 1 && allowClick == true) {
+            if (3 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {

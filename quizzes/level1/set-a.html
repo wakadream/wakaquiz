@@ -39,9 +39,9 @@
             class="btn btn-primary">Next</button>
     </div>
     <script>
-        var JSONdata;
+        
         $.getJSON("questions-set-a.json", function(data) {
-             JSONdata = JSON.parse(JSON.stringify(data));
+             var JSONdata = JSON.parse(JSON.stringify(data));
         }); // sets jsondata variable
         // WE ARE GOING TO CHANGE THIS TO JSON READER!
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?", "Which insect provides some light in caves such as the Waitomo Caves?", "What colour is Kakariki?"]
@@ -88,7 +88,7 @@
         }
         newQuestion()
         function q1c() {
-            if (0 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
+            if (1 == JSONdata[questionNumber]["correct-answer"] && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
 
@@ -105,7 +105,7 @@
         }
         function q2c() {
 
-            if (1 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
+            if (2 == JSONdata[questionNumber]["correct-answer"] && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {
@@ -117,7 +117,7 @@
         }
         function q3c() {
 
-            if (2 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
+            if (3 == JSONdata[questionNumber]["correct-answer"] && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {
@@ -129,7 +129,7 @@
         }
         function q4c() {
 
-            if (3 == JSONdata[questionNumber]["correct-answer"] - 1 && allowClick == true) {
+            if (4 == JSONdata[questionNumber]["correct-answer"] && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"
                 toadd = true
             } else {

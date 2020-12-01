@@ -209,32 +209,38 @@
     },
     {
       "id": 24,
-      "level": 2,
-      "correct-answer": 1,
-      "question": "What year was the Treaty of Waitangi signed?",
-      "answer1": 1840,
-      "answer2": 1940,
-      "answer3": 1841,
-      "answer4": 1759
+      "correct-answer": 4,
+      "question": "Where was the first area of European settlement in NZ?",
+      "answer1": "Auckland",
+      "answer2": "Wellington",
+      "answer3": "Invercargill",
+      "answer4": "Bay of Islands"
     },
     {
       "id": 25,
-      "level": 3,
-      "correct-answer": 4,
-      "question": "What is the large edible bivalve, prized for the meat and the greenish soup made from it?",
-      "answer1": "Pie",
-      "answer2": "Whare",
-      "answer3": "Tuna",
-      "answer4": "Toheroa"
+      "correct-answer": 3,
+      "question": "Who climbed to the top of Mt Everest with Sir Edmund Hillary?",
+      "answer1": "Fred Dogg",
+      "answer2": "Billy T James",
+      "answer3": "Tenzing Norgay",
+      "answer4": "Sean Fitzpatrick"
     },
     {
       "id": 26,
-      "level": 4,
-      "correct-answer": 1,
-      "question": "At the outbreak of World War 1, NZ troops were sent to capture which Pacific island?",
-      "answer1": "Western Samoa",
-      "answer2": "Stewart Island",
-      "answer3": "Tasmania",
-      "answer4": "Apolima"
+      "correct-answer": 4,
+      "question": "What is the name of the NZ national soccer team?",
+      "answer1": "The All Blacks",
+      "answer2": "The Wellington Stars",
+      "answer3": "The Black Caps",
+      "answer4": "The All Whites"
+    },
+    {
+      "id": 27,
+      "correct-answer": 3,
+      "question": "Which country has the most penguin species in the world?",
+      "answer1": "Antarctica",
+      "answer2": "Australia",
+      "answer3": "New Zealand",
+      "answer4": "South Africa"
     }
   ]

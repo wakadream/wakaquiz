@@ -66,7 +66,7 @@
                     correctAnswers++
                 }
                 
-                questionNumber = random(0, len(JSONdata))
+                questionNumber = random(0, Object.keys(JSONdata).length)
 
                 document.getElementById('thequestion').innerHTML = JSONdata[questionNumber].question
                 redoScore()

@@ -39,9 +39,9 @@
             class="btn btn-primary">Next</button>
     </div>
     <script>
-        
+        var JSONdata
         $.getJSON("questions-set-a.json", function(data) {
-             var JSONdata = JSON.parse(JSON.stringify(data));
+             JSONdata = JSON.parse(JSON.stringify(data));
         }); // sets jsondata variable
         console.log(JSONdata)
         // WE ARE GOING TO CHANGE THIS TO JSON READER!

@@ -41,7 +41,7 @@
     <script>
         var JSONdata
         $.getJSON("questions-set-a.json", function(data) {
-             JSONdata = JSON.parse(JSON.stringify(data));
+             JSONdata = data
         }); // sets jsondata variable
         // WE ARE GOING TO CHANGE THIS TO JSON READER!
         var questions = ["Where is Scott Base?", "How did the first Polynesian settlers travel to NZ?", "Which insect provides some light in caves such as the Waitomo Caves?", "What colour is Kakariki?"]

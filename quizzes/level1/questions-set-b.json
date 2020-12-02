@@ -163,11 +163,29 @@
     },
     {
       "id": 19,
-      "correct-answer": 3,
-      "question": "Which sport do the All Whites play?",
-      "answer1": "Netball",
-      "answer2": "Rugby",
-      "answer3": "Soccer",
-      "answer4": "Badminton"
+      "correct-answer": 2,
+      "question": "Why has no living human ever seen a living moa?",
+      "answer1": "Because they are invisible to us",
+      "answer2": "Because they are extinct",
+      "answer3": "Because they are in outer space",
+      "answer4": "Because they run away from us"
+    },
+    {
+      "id": 20,
+      "correct-answer": 1,
+      "question": "What type of animal is a kaka?",
+      "answer1": "A bird",
+      "answer2": "A fish",
+      "answer3": "A lion",
+      "answer4": "A cat"
+    },
+    {
+      "id": 21,
+      "correct-answer": 2,
+      "question": "What are kowhai, karaka, totara, kauri, and rimu?",
+      "answer1": "Colours",
+      "answer2": "Native trees",
+      "answer3": "Birds",
+      "answer4": "Toys"
     }
   ]

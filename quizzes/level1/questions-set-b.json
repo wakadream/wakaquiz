@@ -88,5 +88,23 @@
       "answer2": "Pine",
       "answer3": "Totara",
       "answer4": "Rimu"
+    },
+    {
+      "id": 11,
+      "correct-answer": 3,
+      "question": "Who are Pakeha?",
+      "answer1": "Asians",
+      "answer2": "Australians",
+      "answer3": "Non-maori people",
+      "answer4": "New Zealanders"
+    },
+    {
+      "id": 12,
+      "correct-answer": 1,
+      "question": "What is the common nickname for New Zealanders?",
+      "answer1": "Kiwis",
+      "answer2": "Rugbys",
+      "answer3": "Islanders",
+      "answer4": "Kakapeople"
     }
   ]

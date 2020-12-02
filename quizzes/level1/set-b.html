@@ -26,7 +26,7 @@
         <br />
         <h1 style="text-align: center;"> Waka Kiwi Quiz </h1>
         <h3 style="text-align: center;"> Level 1 </h3>
-        <h4 style="text-align: center;"> Set A </h4>
+        <h4 style="text-align: center;"> Set B </h4>
         <br />
         <p id="thescore"></p>
         <h3 id="thequestion"></h3>
@@ -41,7 +41,7 @@
     </div>
     <script>
         var JSONdata = null;
-        $.getJSON("questions-set-a.json", function(data) {
+        $.getJSON("questions-set-b.json", function(data) {
              JSONdata = data;
              newQuestion();
         }); // sets jsondata variable

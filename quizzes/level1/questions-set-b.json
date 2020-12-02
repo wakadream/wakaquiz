@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "correct-answer": 3,
+      "question": "Which sport do the All Whites play?",
+      "answer1": "Netball",
+      "answer2": "Rugby",
+      "answer3": "Soccer",
+      "answer4": "Badminton"
+    },
+    {
+      "id": 2,
+      "correct-answer": 2,
+      "question": "What type of animal is the kiore, which was brought to NZ by early Polynesian settlers?",
+      "answer1": "A cat",
+      "answer2": "A rat",
+      "answer3": "A bat",
+      "answer4": "A bird"
+    },
+    {
+      "id": 3,
+      "correct-answer": 3,
+      "question": "Which sport do the All Whites play?",
+      "answer1": "Netball",
+      "answer2": "Rugby",
+      "answer3": "Soccer",
+      "answer4": "Badminton"
+    },
+    {
+      "id": 4,
+      "correct-answer": 2,
+      "question": "What is the name for a hot spring that erupts periodically, pushing a column of hot water and steam into the air?",
+      "answer1": "A pier",
+      "answer2": "A geyser",
+      "answer3": "A volcano",
+      "answer4": "A boink"
+    },
+    {
+      "id": 5,
+      "correct-answer": 2,
+      "question": "What is the biggest spectator sport in NZ?",
+      "answer1": "Netball",
+      "answer2": "Rugby",
+      "answer3": "Soccer",
+      "answer4": "Cricker"
+    },
+    {
+      "id": 6,
+      "correct-answer": 3,
+      "question": "New Zealander Ernest Rutherford is famous for splitting what?",
+      "answer1": "Hairs",
+      "answer2": "Siamese twins",
+      "answer3": "The atom",
+      "answer4": "DNA"
+    },
+    {
+      "id": 7,
+      "correct-answer": 1,
+      "question": "Richard Pearse is most famous for his early experiments with what?",
+      "answer1": "Flying",
+      "answer2": "Swimming",
+      "answer3": "Art",
+      "answer4": "Diving"
+    },
+    {
+      "id": 8,
+      "correct-answer": 1,
+      "question": "Which city in the South Island has the most people living in it?",
+      "answer1": "Christchurch",
+      "answer2": "Picton",
+      "answer3": "Queenstown",
+      "answer4": "Blenheim"
+    },
+    {
+      "id": 9,
+      "correct-answer": 1,
+      "question": "Nuclear power generates what percentage of NZ's electricity?",
+      "answer1": "None",
+      "answer2": "10%",
+      "answer3": "20%",
+      "answer4": "50%"
+    },
+    {
+      "id": 10,
+      "correct-answer": 2,
+      "question": "Which one of these is not a native tree?",
+      "answer1": "Kauri",
+      "answer2": "Pine",
+      "answer3": "Totara",
+      "answer4": "Rimu"
+    }
+  ]

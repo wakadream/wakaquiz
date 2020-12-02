@@ -106,5 +106,68 @@
       "answer2": "Rugbys",
       "answer3": "Islanders",
       "answer4": "Kakapeople"
+    },
+    {
+      "id": 13,
+      "correct-answer": 3,
+      "question": "What is Te Reo Maori?",
+      "answer1": "A theme park",
+      "answer2": "A waterfall",
+      "answer3": "A language",
+      "answer4": "A type of bird"
+    },
+    {
+      "id": 14,
+      "correct-answer": 3,
+      "question": "NZ has had several epidemics. What is an epidemic?",
+      "answer1": "A rise in money",
+      "answer2": "A disease that spreads quickly",
+      "answer3": "A lockdown",
+      "answer4": "A change in government"
+    },
+    {
+      "id": 15,
+      "correct-answer": 3,
+      "question": "In NZ slang, what does it mean to be 'a bit of a dag'?",
+      "answer1": "A famous person",
+      "answer2": "A mischievous person",
+      "answer3": "A comedian",
+      "answer4": "A sports player"
+    },
+    {
+      "id": 16,
+      "correct-answer": 3,
+      "question": "Which sport do the All Whites play?",
+      "answer1": "Netball",
+      "answer2": "Rugby",
+      "answer3": "Soccer",
+      "answer4": "Badminton"
+    },
+    {
+      "id": 17,
+      "correct-answer": 4,
+      "question": "What colour is mawhero?",
+      "answer1": "White",
+      "answer2": "Red",
+      "answer3": "Black",
+      "answer4": "Pink"
+    },
+    {
+      "id": 18,
+      "correct-answer": 1,
+      "question": "What is the social and spiritual centre where Maori meet and celebrate?",
+      "answer1": "A marae",
+      "answer2": "A whare",
+      "answer3": "A school",
+      "answer4": "A court"
+    },
+    {
+      "id": 19,
+      "correct-answer": 3,
+      "question": "Which sport do the All Whites play?",
+      "answer1": "Netball",
+      "answer2": "Rugby",
+      "answer3": "Soccer",
+      "answer4": "Badminton"
     }
   ]

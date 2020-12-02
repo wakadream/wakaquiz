@@ -187,5 +187,41 @@
       "answer2": "Native trees",
       "answer3": "Birds",
       "answer4": "Toys"
+    },
+    {
+      "id": 22,
+      "correct-answer": 3,
+      "question": "What was the tallest bird that ever lived?",
+      "answer1": "Kiwi",
+      "answer2": "Kakapo",
+      "answer3": "Moa",
+      "answer4": "Eagle"
+    },
+    {
+      "id": 23,
+      "correct-answer": 2,
+      "question": "'God of Nations' is NZ's national what?",
+      "answer1": "Art",
+      "answer2": "Anthem",
+      "answer3": "Dance",
+      "answer4": "House"
+    },
+    {
+      "id": 24,
+      "correct-answer": 2,
+      "question": "Who represented the British Crown in signing the Treaty of Waitangi?",
+      "answer1": "John Key",
+      "answer2": "William Hobson",
+      "answer3": "James Cook",
+      "answer4": "Abel Tasman"
+    },
+    {
+      "id": 25,
+      "correct-answer": 3,
+      "question": "Which is NZ's highest mountain? It was originally named after a discoverer of NZ.",
+      "answer1": "Mount Ranginui",
+      "answer2": "Mount Ruapehu",
+      "answer3": "Mount Cook",
+      "answer4": "Mount Taranaki"
     }
   ]

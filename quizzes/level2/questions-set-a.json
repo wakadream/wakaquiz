@@ -61,5 +61,77 @@
     "answer2": "Fish",
     "answer3": "Guinea pigs",
     "answer4": "Cats"
+  },
+  {
+    "id": 8,
+    "correct-answer": 3,
+    "question": "Jerusalem is situated near which NZ river??",
+    "answer1": "Waipa",
+    "answer2": "Waikato",
+    "answer3": "Whanganui",
+    "answer4": "Wairoa"
+  },
+  {
+    "id": 9,
+    "correct-answer": 3,
+    "question": "What electrical devices to incapacitate people have been used by the NZ Police since 2006?",
+    "answer1": "Guns",
+    "answer2": "Fishing rods",
+    "answer3": "Tasers",
+    "answer4": "Shockwavers"
+  },
+  {
+    "id": 10,
+    "correct-answer": 4,
+    "question": "What does e noho mean?",
+    "answer1": "Nod",
+    "answer2": "Sit down",
+    "answer3": "Lie down",
+    "answer4": "Peace"
+  },
+  {
+    "id": 11,
+    "correct-answer": 1,
+    "question": "Who wrote 'Slice of Heaven', which became the tourist industry anthem?",
+    "answer1": "Dave Dobbyn",
+    "answer2": "Tim Finn",
+    "answer3": "John Lennon",
+    "answer4": "Russel Crowe"
+  },
+  {
+    "id": 12,
+    "correct-answer": 2,
+    "question": "What attracted Chinese immigrants to NZ from the 1860s?",
+    "answer1": "Living costs",
+    "answer2": "Goldmining",
+    "answer3": "Family",
+    "answer4": "Enjoyment"
+  },
+  {
+    "id": 13,
+    "correct-answer": 1,
+    "question": "Which NZ city is one of the few cities in the world to have harbours on two separate bodies of water?",
+    "answer1": "Auckland",
+    "answer2": "Christchurch",
+    "answer3": "Wellington",
+    "answer4": "Hamilton"
+  },
+  {
+    "id": 14,
+    "correct-answer": 2,
+    "question": "What is the only known wingless bird?",
+    "answer1": "The kiwi",
+    "answer2": "The moa",
+    "answer3": "The kakapo",
+    "answer4": "The eagle"
+  },
+  {
+    "id": 15,
+    "correct-answer": 4,
+    "question": "What was the period in the 1930s called, when there was high unemployment and poverty?",
+    "answer1": "",
+    "answer2": "Fish",
+    "answer3": "Guinea pigs",
+    "answer4": "Cats"
   }
 ]

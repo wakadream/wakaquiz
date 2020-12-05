@@ -1,11 +1,65 @@
 [
   {
     "id": 1,
-    "correct-answer": 0,
-    "question": "a",
-    "answer1": "b",
-    "answer2": "c",
-    "answer3": "d",
-    "answer4": "e"
+    "correct-answer": 3,
+    "question": "Who is the legendary heroine who swam across Lake Rotorua to meet Tutanekai?",
+    "answer1": "Maui",
+    "answer2": "Mauo",
+    "answer3": "Hinemoa",
+    "answer4": "Taupo"
+  },
+  {
+    "id": 2,
+    "correct-answer": 1,
+    "question": "What is the name for the traditional method of trade training in NZ?",
+    "answer1": "Apprenticeships",
+    "answer2": "Friendships",
+    "answer3": "Trade-learning",
+    "answer4": "Traderships"
+  },
+  {
+    "id": 3,
+    "correct-answer": 1,
+    "question": "What is a poi?",
+    "answer1": "A light ball on a string",
+    "answer2": "A dance",
+    "answer3": "A song",
+    "answer4": "A carved piece of stone"
+  },
+  {
+    "id": 4,
+    "correct-answer": 2,
+    "question": "How many Maori chiefs signed the Treaty of Waitangi at Waitangi?",
+    "answer1": "23",
+    "answer2": "43",
+    "answer3": "63",
+    "answer4": "83"
+  },
+  {
+    "id": 5,
+    "correct-answer": 1,
+    "question": "Where is the largest stretch of flat land in NZ?",
+    "answer1": "Canterbury Plains",
+    "answer2": "Rotorua",
+    "answer3": "Taupo",
+    "answer4": "Nelson"
+  },
+  {
+    "id": 6,
+    "correct-answer": 1,
+    "question": "What is the name of the largest peninsula north of Thames?",
+    "answer1": "Coromandel Peninsula",
+    "answer2": "Auckland Peninsula",
+    "answer3": "Thames Peninsula",
+    "answer4": "Christchurch Peninsula"
+  },
+  {
+    "id": 7,
+    "correct-answer": 4,
+    "question": "Which common household pet can become a wild pest which kills native birds?",
+    "answer1": "Dogs",
+    "answer2": "Fish",
+    "answer3": "Guinea pigs",
+    "answer4": "Cats"
   }
 ]

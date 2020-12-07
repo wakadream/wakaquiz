@@ -133,5 +133,59 @@
     "answer2": "Low",
     "answer3": "Cry",
     "answer4": "Negative"
+  },
+  {
+    "id": 16,
+    "correct-answer": 1,
+    "question": "Which of these lives the longest?",
+    "answer1": "Orange Roughy",
+    "answer2": "Tuatara",
+    "answer3": "Royal Albatross",
+    "answer4": "Eagle"
+  },
+  {
+    "id": 17,
+    "correct-answer": 2,
+    "question": "Which famous natural wonder was destroyed by a volcanic eruption in 1886?",
+    "answer1": "The Sky Tower in Auckland",
+    "answer2": "The Pink and White Terraces in Rotorua",
+    "answer3": "Lake Taupo",
+    "answer4": "Geronimo Place"
+  },
+  {
+    "id": 18,
+    "correct-answer": 3,
+    "question": "Chew Chong brought wealth to Taranaki through exporting what to England?",
+    "answer1": "Sheep",
+    "answer2": "Timber",
+    "answer3": "Butter",
+    "answer4": "Coal"
+  },
+  {
+    "id": 19,
+    "correct-answer": 4,
+    "question": "How many species of ants are native to NZ?",
+    "answer1": "None",
+    "answer2": "One",
+    "answer3": "Five",
+    "answer4": "Ten"
+  },
+  {
+    "id": 20,
+    "correct-answer": 2,
+    "question": "What simple child's toy has become a symbol of kiwiana?",
+    "answer1": "Thomas the Tank Engine",
+    "answer2": "The Buzzy Bee",
+    "answer3": "The Hot Wheels Car",
+    "answer4": "Jellycar"
+  },
+  {
+    "id": 21,
+    "correct-answer": 1,
+    "question": "What are Moko?",
+    "answer1": "Traditional Maori tattoos",
+    "answer2": "Traditional Maori art",
+    "answer3": "Traditional Maori greetings",
+    "answer4": "Traditional Maori food"
   }
 ]

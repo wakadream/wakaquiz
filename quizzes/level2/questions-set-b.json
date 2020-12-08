@@ -7,5 +7,14 @@
       "answer2": "Hastings",
       "answer3": "Ormiston",
       "answer4": "Invercargill"
+    },
+    {
+      "id": 2,
+      "correct-answer": 2,
+      "question": "Which large town, other than Napier, was extensively destroyed by the 1931 Hawkes Bay earthquake?",
+      "answer1": "Auckland",
+      "answer2": "Hastings",
+      "answer3": "Ormiston",
+      "answer4": "Invercargill"
     }
 ]

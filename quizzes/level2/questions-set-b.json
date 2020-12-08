@@ -16,5 +16,86 @@
       "answer2": "Hastings",
       "answer3": "Christchurch",
       "answer4": "Auckland"
+    },
+    {
+      "id": 3,
+      "correct-answer": 3,
+      "question": "How many million years ago did dinosaurs become extinct <b>in NZ</b>?",
+      "answer1": "5",
+      "answer2": "35",
+      "answer3": "65",
+      "answer4": "100"
+    },
+    {
+      "id": 4,
+      "correct-answer": 2,
+      "question": "In 1918 many people died in NZ - from what illness?",
+      "answer1": "Bubonic plague",
+      "answer2": "Flu",
+      "answer3": "Mumps",
+      "answer4": "Meningitis"
+    },
+    {
+      "id": 5,
+      "correct-answer": 1,
+      "question": "What is Stan Walker best known for?",
+      "answer1": "Singing",
+      "answer2": "Dancing",
+      "answer3": "Vlogging",
+      "answer4": "Inventing"
+    },
+    {
+      "id": 6,
+      "correct-answer": 1,
+      "question": "The tui, stitchbird and bellbird eat mainly what?",
+      "answer1": "Nectar",
+      "answer2": "Breadcrumbs",
+      "answer3": "Chips",
+      "answer4": "Other birds"
+    },
+    {
+      "id": 7,
+      "correct-answer": 1,
+      "question": "Which West Coast natural resource did Thomas Brunner discover?",
+      "answer1": "Coal",
+      "answer2": "Moa bones",
+      "answer3": "Kiwis",
+      "answer4": "Gold"
+    },
+    {
+      "id": 8,
+      "correct-answer": 3,
+      "question": "In what year did Jean Batten fly solo from England to NZ?",
+      "answer1": "1806",
+      "answer2": "1916",
+      "answer3": "1936",
+      "answer4": "1966"
+    },
+    {
+      "id": 9,
+      "correct-answer": 3,
+      "question": "Which language became an official language of NZ in 1987?",
+      "answer1": "English",
+      "answer2": "NZ Sign Language",
+      "answer3": "Maori",
+      "answer4": "Samoan"
+    },
+    {
+      "id": 10,
+      "correct-answer": 4,
+      "question": "What is the name for a Maori priest?",
+      "answer1": "Iwi",
+      "answer2": "Ratana",
+      "answer3": "Tangata",
+      "answer4": "Tohunga"
+    },
+    {
+      "id": 11,
+      "correct-answer": 1,
+      "question": "Which town was once called Kororareka and in 1840 was the largest settlement in New Zealand?",
+      "answer1": "Russell",
+      "answer2": "Auckland",
+      "answer3": "Hamilton",
+      "answer4": "Christchurch"
     }
 ]

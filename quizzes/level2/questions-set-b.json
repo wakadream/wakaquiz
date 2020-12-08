@@ -10,11 +10,11 @@
     },
     {
       "id": 2,
-      "correct-answer": 2,
-      "question": "Which large town, other than Napier, was extensively destroyed by the 1931 Hawkes Bay earthquake?",
-      "answer1": "Auckland",
+      "correct-answer": 1,
+      "question": "What is the southernmost <b>town</b> in the South Island?",
+      "answer1": "Bluff",
       "answer2": "Hastings",
-      "answer3": "Ormiston",
-      "answer4": "Invercargill"
+      "answer3": "Christchurch",
+      "answer4": "Auckland"
     }
 ]

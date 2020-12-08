@@ -97,5 +97,86 @@
       "answer2": "Auckland",
       "answer3": "Hamilton",
       "answer4": "Christchurch"
+    },
+    {
+      "id": 12,
+      "correct-answer": 3,
+      "question": "What historic shipment first took place in 1882, marking the start of important exports from NZ?",
+      "answer1": "The first shipment of milk",
+      "answer2": "The first shipment of animals",
+      "answer3": "The first shipment of frozen meat",
+      "answer4": "The first shipment of oil"
+    },
+    {
+      "id": 13,
+      "correct-answer": 3,
+      "question": "How many years is it since a volcano has erupted in Auckland?",
+      "answer1": "10",
+      "answer2": "100",
+      "answer3": "600",
+      "answer4": "1600"
+    },
+    {
+      "id": 14,
+      "correct-answer": 3,
+      "question": "Interisland ferries operate between which city and town in the North and South Islands?",
+      "answer1": "Auckland and Invercargill",
+      "answer2": "Auckland and Picton",
+      "answer3": "Wellington and Picton",
+      "answer4": "Hamilton and Christchurch"
+    },
+    {
+      "id": 15,
+      "correct-answer": 4,
+      "question": "Which place is known as the 'Sunshine Capital' of New Zealand? It usually averages more sunshine hours than anywhere else.",
+      "answer1": "Auckland",
+      "answer2": "Christchurch",
+      "answer3": "Hamilton",
+      "answer4": "Blenheim"
+    },
+    {
+      "id": 16,
+      "correct-answer": 1,
+      "question": "In New Zealand slang, what is a 'prang'?",
+      "answer1": "A minor vehicle accident",
+      "answer2": "A mistake",
+      "answer3": "A pool",
+      "answer4": "A cable"
+    },
+    {
+      "id": 17,
+      "correct-answer": 4,
+      "question": "Who was the leader of the National Part in the 2017 election?",
+      "answer1": "Simon Bridges",
+      "answer2": "Judith Collins",
+      "answer3": "Jacinda Ardern",
+      "answer4": "Bill English"
+    },
+    {
+      "id": 18,
+      "correct-answer": 4,
+      "question": "Which is the driest main city in NZ?",
+      "answer1": "Invercargill",
+      "answer2": "Wellington",
+      "answer3": "Hamilton",
+      "answer4": "Christchurch"
+    },
+    {
+      "id": 19,
+      "correct-answer": 2,
+      "question": "Geothermal power generates what percentage of NZ's electricity?",
+      "answer1": "None",
+      "answer2": "20%",
+      "answer3": "25%",
+      "answer4": "55%"
+    },
+    {
+      "id": 20,
+      "correct-answer": 2,
+      "question": "In which year were the first Maori MPs elected to Parliament?",
+      "answer1": "1853",
+      "answer2": "1868",
+      "answer3": "1893",
+      "answer4": "1903"
     }
 ]

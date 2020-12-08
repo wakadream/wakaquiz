@@ -27,7 +27,9 @@
         <h1 style="text-align: center;"> Waka Kiwi Quiz </h1>
         <h3 style="text-align: center;"> Level 2 </h3>
         <h4 style="text-align: center;"> Set A </h4>
-        <noscript><h1>YOU NEED JAVASCRIPT FOR THIS TO WORK</h1></noscript>
+        <noscript>
+            <h1>YOU NEED JAVASCRIPT FOR THIS TO WORK</h1>
+        </noscript>
         <br />
         <p id="thescore"></p>
         <h3 id="thequestion"></h3>
@@ -42,9 +44,9 @@
     </div>
     <script>
         var JSONdata = null;
-        $.getJSON("questions-set-a.json", function(data) {
-             JSONdata = data;
-             newQuestion();
+        $.getJSON("questions-set-a.json", function (data) {
+            JSONdata = data;
+            newQuestion();
         }); // sets jsondata variable
         var questionNumber
         var correctAnswers = 0;
@@ -84,7 +86,7 @@
             }
 
         }
-        
+
         function q1c() {
             if (1 == JSONdata[questionNumber]["correct-answer"] && allowClick == true) {
                 document.getElementById('congrats-mate').innerHTML = "Congrats! You got it correct!"

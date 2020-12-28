@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://wakaquiz.com/</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wakaquiz.com/quizzes/level1/choose.html</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wakaquiz.com/quizzes/level2/choose.html</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wakaquiz.com/quizzes/level1/set-a.html</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wakaquiz.com/quizzes/level1/set-b.html</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wakaquiz.com/quizzes/level2/set-a.html</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wakaquiz.com/quizzes/level2/set-b.html</loc>
+  <lastmod>2020-12-28T01:58:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
